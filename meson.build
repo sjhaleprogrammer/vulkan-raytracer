@@ -9,7 +9,7 @@ glew_dep = dependency('glew')
 cc = meson.get_compiler('c')
 
 # Source files
-src_files = ['src/main.c', 'src/gl.c']
+src_files = ['src/main.c', 'src/vulkan.c']
 
 # Executable
 executable('my_project', src_files,
